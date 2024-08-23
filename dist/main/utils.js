@@ -16,7 +16,7 @@ var _formidable = _interopRequireDefault(require("formidable"));
 
 var _querystring = _interopRequireDefault(require("querystring"));
 
-var _koaBodyParsers = _interopRequireDefault(require("koa-body-parsers"));
+var _koaBodyParsers = _interopRequireDefault(require('../module/bodyParsers'));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
