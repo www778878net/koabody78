@@ -1,7 +1,7 @@
 import extend from 'extend-shallow';
 import formidable from 'formidable';
 import querystring from 'querystring';
-import bodyParsers from 'koa-body-parsers';
+import bodyParsers from './bodyParsers';
 export function defaultOptions(options = {}) {
   const cfg = { ...options
   };
